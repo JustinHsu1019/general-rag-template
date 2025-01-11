@@ -3,7 +3,7 @@ from utils.ai.gpt_tem import gpt_template
 
 
 def call_llm(content_list, user_input, use_gpt: bool):
-    prompt = f"""You are a helpful and informative healthcare bot that answers questions using text from the reference passage included below. \
+    prompt = f"""You are a helpful and informative bot that answers questions using text from the reference passage included below. \
 Be sure to respond in a complete sentence, being comprehensive, including all relevant background information. \
 However, you are talking to a non-technical audience, so be sure to break down complicated concepts and \
 strike a friendly and conversational tone. \
