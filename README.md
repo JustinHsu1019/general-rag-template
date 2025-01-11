@@ -1,5 +1,10 @@
 # General RAG Template
 
+### System Architecture
+- The frontend here, represented by LINE, is just an example
+
+![System Diagram](docs/system_diagram.png)
+
 ### Retriever
 
 - Hybrid Search (Stage 1 -> Get Top 100)
