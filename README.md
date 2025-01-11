@@ -122,7 +122,7 @@ To set up the development environment, follow these steps:
       # Control the number of results post-reranking to include in the Prompt for LLM (default is 5)
       RERANKER_NUM = 5
 
-      # Search strategy: 80% Vector Search, 20% Hybrid Search
+      # Search strategy: 80% Vector Search, 20% Keyword Search
       # (Based on empirical results, an 8:2 ratio provides optimal results)
       alp = 0.8
    ```
