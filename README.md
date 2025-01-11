@@ -138,9 +138,9 @@ To set up the development environment, follow these steps:
 
 ---
 
-### Source Code Overview
+## Source Code Overview
 
-#### RAG Generation Section
+### RAG Generation Section
 
 1. **Prompt Modification**  
    Modify the prompt in `src/utils/ai/call_ai.py`. This script acts as an abstraction layer for calling LLMs. Choose between GPT or Gemini models (default is GPT).
@@ -149,7 +149,7 @@ To set up the development environment, follow these steps:
    - GPT: `src/utils/ai/gpt_tem.py`  
    - Gemini: `src/utils/ai/gemini_tem.py`
 
-#### RAG Retrieval Section
+### RAG Retrieval Section
 
 1. **Database Initialization and Data Insertion**  
    Handle database initialization and insert data via `src/db_insert.py`. By default, the database contains two fields: `uuid` and `content` (modifiable). Refer to the [Weaviate v4 Docs - Objects](https://weaviate.io/developers/weaviate/manage-data/create) for details.
@@ -159,3 +159,10 @@ To set up the development environment, follow these steps:
    - The number of results retrieved.  
    - The balance between semantic and keyword search (Hybrid Search ratio).  
    Refer to the [Weaviate v4 Docs - Hybrid Search](https://weaviate.io/developers/weaviate/search/hybrid) for detailed explanations.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit pull requests, create issues, or suggest improvements.
+For any questions, please create an issue in the repository.
