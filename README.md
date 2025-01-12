@@ -78,7 +78,7 @@ To set up the development environment, follow these steps:
    - The **api_key** for [OpenAI] can be obtained by registering on the OpenAI official website.  
    - The **api_key** for [VoyageAI] can be obtained by registering on the VoyageAI official website.  
    - The **password** for [Api_docs] can be freely set by the user.  
-   - After starting `rag_service.py`, you can directly visit [http://127.0.0.1:5000/](http://127.0.0.1:5000/) to view the Swagger API documentation page.  
+     - After starting `rag_service.py`, you can directly visit [http://127.0.0.1:5000/](http://127.0.0.1:5000/) to view the Swagger API documentation page.  
    - For [Gemini], if you choose OpenAI as the LLM model, you do not need to configure any value (set values only if you choose to use Google Gemini).  
    - For [Weaviate], you only need to set the `class_name`. You can assign any name, similar to a Collection Name in Firebase.
 
