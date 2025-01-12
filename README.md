@@ -1,5 +1,7 @@
 # General RAG Template
 
+Template for building a High-Accuracy Retrieval-Augmented Generation (RAG) pipelines with hybrid search (semantic + keyword), reranking, and LLM-based generation.
+
 ### System Architecture
 - The frontend here, represented by LINE, is just an example
 
