@@ -14,10 +14,14 @@ Template for building a High-Accuracy Retrieval-Augmented Generation (RAG) pipel
     - Bm25 (Keyword search): `weaviate gse (jieba)` (20% Search)
 - Voyage Reranker (Stage 2 -> Get Top 5)
 
-### Data Preprocess
+### Retriever Data Preprocess
 
 - Use text_splitter to chunk data with an excessive number of tokens
    - Split into segments of 2000 tokens with an overlap of 500 tokens
+
+### FineTuning LLM
+- [Justin's Open Source LLM Deployment and Training Tutorial](https://github.com/JustinHsu1019/LLaMA-Deploy-Train)
+- After completing the LLM training and deploying it using the deployment method provided in the repository, you can create your model's `tem.py` file in the `src/utils/ai` path of this repository. This will allow you to invoke it in `call_ai.py`.
 
 ## Repo Structure
 ```
