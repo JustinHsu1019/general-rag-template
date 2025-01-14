@@ -28,6 +28,7 @@ Template for building a High-Accuracy Retrieval-Augmented Generation (RAG) pipel
 .
 ├── README.md
 ├── config.ini
+├── llm_finetuning (submodule)
 ├── data
 │   └── README.md
 ├── docs
