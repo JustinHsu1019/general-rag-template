@@ -1,0 +1,3 @@
+[submodule "llm_finetuning"]
+	path = llm_finetuning
+	url = https://github.com/JustinHsu1019/LLaMA-Deploy-Train
